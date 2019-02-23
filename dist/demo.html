@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>vueDraggableNumber demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./vueDraggableNumber.umd.js"></script>
+<link rel="stylesheet" href="./vueDraggableNumber.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: vueDraggableNumber
+  }
+}).$mount('#app')
+</script>
